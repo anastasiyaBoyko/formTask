@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="'description" content="test task">
+    <title>Form</title>
+
+    <link type="text/css" rel="stylesheet" href="build/scss/style.css" />
+    <link rel="stylesheet"  href="build/scss/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="form">
+        <div class="form__header">
+            <h3 class="form__title">
+                Lorem ipsum dolor sit amet
+            </h3>
+            <p class="form__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <form class="form__body" id="form">
+            <div id="page-1">                
+                <button class="form__block-btn">
+                    <span class="btn-title">Block 1 /</span>
+                    <span class="btn-title btn-title--light">2</span>
+                </button>
+                <div class="form-page-1__inner">
+                    <section class="contact-info">
+                        <div class="section__header">
+                            <div class="section-icon" data-tooltip="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.0625 13C18.8958 12.1667 19.3125 11.1667 19.3125 10C19.3125 8.54167 18.7917 7.29167 17.75 6.25C16.7083 5.20833 15.4583 4.6875 14 4.6875C12.5417 4.6875 11.2917 5.20833 10.25 6.25C9.20833 7.29167 8.6875 8.54167 8.6875 10H11.3125C11.3125 9.29167 11.5833 8.66667 12.125 8.125C12.6667 7.58333 13.2917 7.3125 14 7.3125C14.7083 7.3125 15.3333 7.58333 15.875 8.125C16.4167 8.66667 16.6875 9.29167 16.6875 10C16.6875 10.7083 16.4167 11.3333 15.875 11.875L14.25 13.5625C13.2083 14.6875 12.6875 15.9375 12.6875 17.3125V18H15.3125C15.3125 16.625 15.8333 15.375 16.875 14.25L18.0625 13ZM15.3125 23.3125V20.6875H12.6875V23.3125H15.3125ZM4.5625 4.625C7.1875 2 10.3333 0.6875 14 0.6875C17.6667 0.6875 20.7917 2 23.375 4.625C26 7.20833 27.3125 10.3333 27.3125 14C27.3125 17.6667 26 20.8125 23.375 23.4375C20.7917 26.0208 17.6667 27.3125 14 27.3125C10.3333 27.3125 7.1875 26.0208 4.5625 23.4375C1.97917 20.8125 0.6875 17.6667 0.6875 14C0.6875 10.3333 1.97917 7.20833 4.5625 4.625Z" fill="#58667C"/>
+                                </svg>
+                            </div>
+                            <h5>Contact info</h5>
+                        </div>
+                        <div class="contact-info__body">
+                            <div class="input-wrapper">
+                                <label for="phone">Phone</label>
+                                <input id="phone" placeholder="+1 939 283 294">
+                            </div>
+                            <div class="input-wrapper">
+                                 <label for="state">My State/City</label>
+                                <input id="state" type="text" placeholder="Your State">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="name">My Name</label>
+                                <input id="name" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="country">My Country</label>
+                                <input id="country" type="text" placeholder="Your Country">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main-info">
+                        <div class="section__header">
+                            <div class="section-icon">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.0625 13C18.8958 12.1667 19.3125 11.1667 19.3125 10C19.3125 8.54167 18.7917 7.29167 17.75 6.25C16.7083 5.20833 15.4583 4.6875 14 4.6875C12.5417 4.6875 11.2917 5.20833 10.25 6.25C9.20833 7.29167 8.6875 8.54167 8.6875 10H11.3125C11.3125 9.29167 11.5833 8.66667 12.125 8.125C12.6667 7.58333 13.2917 7.3125 14 7.3125C14.7083 7.3125 15.3333 7.58333 15.875 8.125C16.4167 8.66667 16.6875 9.29167 16.6875 10C16.6875 10.7083 16.4167 11.3333 15.875 11.875L14.25 13.5625C13.2083 14.6875 12.6875 15.9375 12.6875 17.3125V18H15.3125C15.3125 16.625 15.8333 15.375 16.875 14.25L18.0625 13ZM15.3125 23.3125V20.6875H12.6875V23.3125H15.3125ZM4.5625 4.625C7.1875 2 10.3333 0.6875 14 0.6875C17.6667 0.6875 20.7917 2 23.375 4.625C26 7.20833 27.3125 10.3333 27.3125 14C27.3125 17.6667 26 20.8125 23.375 23.4375C20.7917 26.0208 17.6667 27.3125 14 27.3125C10.3333 27.3125 7.1875 26.0208 4.5625 23.4375C1.97917 20.8125 0.6875 17.6667 0.6875 14C0.6875 10.3333 1.97917 7.20833 4.5625 4.625Z" fill="#58667C"/>
+                                </svg>
+                            </div>
+                            <h5>Main Questions</h5>
+                        </div>
+                        <div class="main-info__body">
+                            <div class="input-wrapper">
+                                <label for="main-1">Morbi placerat laoreet turpis ut pharetra?</label>
+                                <input id="main-1" type="text" placeholder="Type your answer here">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="main-2">Donec efficitur fermentum augue vestibulum gravida?</label>
+                                <input id="main-2" type="text" placeholder="Type your answer here">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="main-3">Praesent ullamcorper malesuada nunc ac blandit?</label>
+                                <input id="main-3" type="text" placeholder="Type your answer here">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="main-4">Proin euismod leo eu metus commodo sodales?</label>
+                                <input id="main-4" type="text" placeholder="Type your answer here">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <button class="next-btn" id="next-step">
+                    <span>Next</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0.320312L13.6797 7L7 13.6797L5.82812 12.5078L10.4766 7.82031H0.320312V6.17969H10.4766L5.82812 1.49219L7 0.320312Z" fill="#A17601"/>
+                    </svg>                
+                </button>
+            </div>
+            <div class="form-page-2__inner" id="page-2">
+                <button class="form__block-btn">
+                    <span class="btn-title">Block 2 /</span>
+                    <span class="btn-title btn-title--light">2</span>
+                </button>
+                <div class="form-page-1__inner">
+                    <section class="other-info">
+                        <div class="section__header">
+                            <div class="section-icon" data-tooltip="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.0625 13C18.8958 12.1667 19.3125 11.1667 19.3125 10C19.3125 8.54167 18.7917 7.29167 17.75 6.25C16.7083 5.20833 15.4583 4.6875 14 4.6875C12.5417 4.6875 11.2917 5.20833 10.25 6.25C9.20833 7.29167 8.6875 8.54167 8.6875 10H11.3125C11.3125 9.29167 11.5833 8.66667 12.125 8.125C12.6667 7.58333 13.2917 7.3125 14 7.3125C14.7083 7.3125 15.3333 7.58333 15.875 8.125C16.4167 8.66667 16.6875 9.29167 16.6875 10C16.6875 10.7083 16.4167 11.3333 15.875 11.875L14.25 13.5625C13.2083 14.6875 12.6875 15.9375 12.6875 17.3125V18H15.3125C15.3125 16.625 15.8333 15.375 16.875 14.25L18.0625 13ZM15.3125 23.3125V20.6875H12.6875V23.3125H15.3125ZM4.5625 4.625C7.1875 2 10.3333 0.6875 14 0.6875C17.6667 0.6875 20.7917 2 23.375 4.625C26 7.20833 27.3125 10.3333 27.3125 14C27.3125 17.6667 26 20.8125 23.375 23.4375C20.7917 26.0208 17.6667 27.3125 14 27.3125C10.3333 27.3125 7.1875 26.0208 4.5625 23.4375C1.97917 20.8125 0.6875 17.6667 0.6875 14C0.6875 10.3333 1.97917 7.20833 4.5625 4.625Z" fill="#58667C"/>
+                                </svg>
+                            </div>
+                            <h5>Other questions</h5>
+                        </div>
+                        <div class="other-info__body">
+                            <div class="input-wrapper">
+                                <label for="textarea">Nunc consequat blandit quam dapibus lacinia?</label>
+                                <textarea id="textarea" type="text" placeholder="Type your answer here"></textarea>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="upload-file" id="upload-wrapper">
+                        <div>
+                            <span class="upload-file__info">Or upload them in a separate file | </span>
+                            <span class="upload-file__info upload-file__info--light">.doc, .docx, .rtf, .txt only</span>
+                        </div>
+                        <label for="uploader" class="upload-btn">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.8203 6.82031H6.82031V11.8203H5.17969V6.82031H0.179688V5.17969H5.17969V0.179688H6.82031V5.17969H11.8203V6.82031Z" fill="#EB6A58"/>
+                            </svg>
+                            Upload File
+                        </label>
+                        <input type="file"  id="uploader"></input>
+                    </div>
+                    <div class="file-preview" id="file-preview">
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.30213 1.19718C2.17021 0.399061 3.22979 -2.52223e-07 4.48085 -1.97538e-07C5.73192 -1.42852e-07 6.79149 0.399061 7.65957 1.19718C8.55319 1.99531 9 2.96948 9 4.11972L9 12.007C9 12.8286 8.66808 13.5329 8.00425 14.1197C7.36596 14.7066 6.6 15 5.70638 15C4.81277 15 4.04681 14.7066 3.40851 14.1197C2.77021 13.5329 2.45106 12.8286 2.45106 12.007L2.45106 5.6338C2.45106 5.11737 2.64255 4.67136 3.02553 4.29577C3.43404 3.92019 3.91915 3.73239 4.48085 3.73239C5.04255 3.73239 5.52766 3.92019 5.93617 4.29577C6.34468 4.67136 6.54894 5.11737 6.54894 5.6338L6.54894 11.2676L4.90213 11.2676L4.90213 5.56338C4.90213 5.35211 4.7617 5.24648 4.48085 5.24648C4.22553 5.24648 4.09787 5.35211 4.09787 5.56338L4.09787 12.007C4.09787 12.4061 4.25106 12.7582 4.55745 13.0634C4.88936 13.3685 5.27234 13.5211 5.70638 13.5211C6.14043 13.5211 6.5234 13.3685 6.85532 13.0634C7.18723 12.7582 7.35319 12.4061 7.35319 12.007L7.35319 4.11972C7.35319 3.39202 7.07234 2.76995 6.51064 2.25352C5.94894 1.73709 5.27234 1.47887 4.48085 1.47887C3.68936 1.47887 3.01277 1.73709 2.45106 2.25352C1.91489 2.76995 1.64681 3.39202 1.64681 4.11972L1.64681 11.2676L4.61151e-07 11.2676L7.73595e-07 4.11972C8.23874e-07 2.96948 0.434044 1.9953 1.30213 1.19718Z" fill="#58667C"/>
+                        </svg>
+                        <div class="file-info">
+                            <div class="file-info__name" id="file-name"></div>
+                            <div class="add-info">
+                                <span id="file-size"></span>
+                                <span id="upload-date"></span>
+                            </div>
+                        </div>
+                        <button id="file-rm" class="file-rm">
+                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 1.00671L6.00671 5L10 8.99329L8.99329 10L5 6.00671L1.00671 10L0 8.99329L3.99329 5L0 1.00671L1.00671 0L5 3.99329L8.99329 0L10 1.00671Z" fill="#79879B"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="file-data">
+                        <span class="upload-error" id="size-error">File is too big</span>
+                        <span class="upload-error" id="format-error">Unknown file format. Please use .doc, .docx, .rtf, .txt files</span>
+                    </div>
+                </div>
+                <div class="form__actions">
+                    <button class="back-btn" id="back-btn">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.6797 6.17969V7.82031H3.52344L8.17188 12.5078L7 13.6797L0.320312 7L7 0.320312L8.17188 1.49219L3.52344 6.17969H13.6797Z" fill="#58667C"/>
+                        </svg>
+                        Back                            
+                    </button>
+                    <button class="submit-btn" type="submit" id="submit-form">Submit form</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

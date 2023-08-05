@@ -1,0 +1,17 @@
+{
+  "name": "formtask",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.64.2"
+  }
+}
